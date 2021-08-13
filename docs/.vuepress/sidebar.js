@@ -4,7 +4,7 @@ const sidebar = {
 			title: 'Getting Started',
 			collapsable: false,
 			children: [
-				'./getting-started/installation',
+				'./starting/setup',
 			],
 		},
 		{
