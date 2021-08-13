@@ -1,7 +1,7 @@
 const sidebar = require('./sidebar.js');
 
 module.exports = {
-	title: 'Nuggies',
+	title: 'discord-cmds.js',
 	base: '/',
 	head: [
 		['meta', { charset: 'utf-8' }],
@@ -14,14 +14,14 @@ module.exports = {
 			{ rel: 'icon', type: 'image/png', href: '/logo.png' },
 		],
 		['meta', { name: 'theme-color', content: '#fbad61' }],
-		['meta', { property: 'og:site_name', content: 'Nuggies' }],
-		['meta', { property: 'og:title', content: 'Nuggies' }],
+		['meta', { property: 'og:site_name', content: 'DCjs' }],
+		['meta', { property: 'og:title', content: 'DCjs' }],
 		[
 			'meta',
-			{ property: 'og:description', content: 'A utility package for Discord Bots!' },
+			{ property: 'og:description', content: 'A package for handling slash and normal commands on discord.js v13!' },
 		],
 		['meta', { property: 'og:type', content: 'website' }],
-		['meta', { property: 'og:url', content: 'https://discord-buttons.js.org' }],
+		['meta', { property: 'og:url', content: 'https://discord-cmds.dbots.ml' }],
 		['meta', { property: 'og:locale', content: 'en' }],
 		[
 			'meta',
@@ -33,12 +33,12 @@ module.exports = {
 	themeConfig: {
 		smoothScroll: true,
 		searchPlaceholder: 'Search',
-		repo: 'Nuggies-bot',
+		repo: 'discord-cmds.js',
 		lastUpdated: true,
 		nav: [
 			{
 				text: 'Documentation',
-				link: '/docs/getting-started/installation.html',
+				link: '/docs/starting/setup.html',
 			},
 		],
 		sidebar,
